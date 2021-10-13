@@ -2,6 +2,12 @@
 
 /* UTILITIES */
 
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 /* HEADER */
 
 header {
@@ -35,7 +41,6 @@ footer {
     height: 100%;
     display: flex;
     align-items: flex-end;
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* MAIN */
@@ -74,3 +79,23 @@ footer {
     border-bottom: 3px solid blue;
     border-radius: 3px;
 }
+
+/* IT TAKES TWO SECTION */
+
+.game_section {
+    height: 60vh;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.game_section_content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.game_section_content img {
+    width: 100%;
+}
+
