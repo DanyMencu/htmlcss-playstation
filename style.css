@@ -2,9 +2,32 @@
 
 /* UTILITIES */
 
-
 /* HEADER */
+
+header {
+    font-family: helvetica, arial, sans-serif;
+}
 
 .header_top {
     background-color: #000;
+}
+
+/* HERO */
+
+.hero {
+    height: 60vh;
+    background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero_content {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.1);
 }
