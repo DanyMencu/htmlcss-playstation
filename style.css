@@ -50,3 +50,27 @@ footer {
 .game_list img:hover {
     border: 2px solid blue;
 }
+
+/* PS5 CONSOLE */
+
+.console_section img {
+    width: 100%;
+}
+
+.carosel_img {
+    cursor: pointer;
+}
+
+.carosel_img img {
+    filter: grayscale(1);
+}
+
+.carosel_img:hover img {
+    filter: grayscale(0);
+}
+
+.carosel_img:hover {
+    color: #000;
+    border-bottom: 3px solid blue;
+    border-radius: 3px;
+}
