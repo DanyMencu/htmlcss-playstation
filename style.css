@@ -7,6 +7,14 @@ h4 {
     font-weight: 600;
 }
 
+* {
+    font-size: 14px;
+}
+
+body {
+    padding-top: 110px;
+}
+
 /* UTILITIES */
 
 .cover {
@@ -122,3 +130,14 @@ footer {
 }
 
 /* SOCIALMEDIA SECTION */
+
+
+/* FOOTER */
+
+footer {
+    background: rgb(0, 23, 231);
+}
+
+footer .footer_link li {
+    list-style: none;
+}
