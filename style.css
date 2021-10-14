@@ -1,17 +1,22 @@
 /* GENERAL STYLES */
+*,
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
     font-weight: 600;
 }
+
 /* UTILITIES */
 
 .cover {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.img_full_w img {
+    width: 100%;
 }
 
 /* HEADER */
@@ -39,10 +44,6 @@ footer {
     background-position-x: center;
 }
 
-.hero img {
-    width: 100%;
-}
-
 .hero_content {
     height: 100%;
     display: flex;
@@ -53,7 +54,6 @@ footer {
 
 /* GAME LIST */
 .game_list img {
-    width: 100%;
     border-radius: 15px;
     padding: 2px;
 }
@@ -63,10 +63,6 @@ footer {
 }
 
 /* PS5 CONSOLE */
-
-.console_section img {
-    width: 100%;
-}
 
 .carosel_img {
     cursor: pointer;
@@ -101,10 +97,6 @@ footer {
     align-items: center;
 }
 
-.game_section_content img {
-    width: 100%;
-}
-
 /* NEW RELEASES */
 
 .new_release img {
@@ -115,16 +107,11 @@ footer {
 
 /* EXPLORE PS4 */
 
-.explore_ps4 img {
-    width: 100%;
-}
-
 /* PLAYSTATION PLUS */
 
 .ps_plus {
     background-color: #bfb9b9;
 }
 
-.ps_plus img {
-    width: 100%;
-}
+/* PS STORE NEW DISCOUNT */
+
