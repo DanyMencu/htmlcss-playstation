@@ -1,5 +1,11 @@
 /* GENERAL STYLES */
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 600;
+}
 /* UTILITIES */
 
 .cover {
@@ -105,4 +111,10 @@ footer {
     width: 100%;
     border-radius: 15px;
     padding: 2px;
+}
+
+/* EXPLORE PS4 */
+
+.explore_ps4 img {
+    width: 100%;
 }
