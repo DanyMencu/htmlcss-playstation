@@ -99,3 +99,10 @@ footer {
     width: 100%;
 }
 
+/* NEW RELEASES */
+
+.new_release img {
+    width: 100%;
+    border-radius: 15px;
+    padding: 2px;
+}
