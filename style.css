@@ -27,6 +27,31 @@ body {
     width: 100%;
 }
 
+.outline_white:hover {
+    outline-style: solid;
+    outline-offset: 4px;
+    outline-color: white;
+}
+
+.outline_black:hover {
+    outline-style: solid;
+    outline-offset: 4px;
+    outline-color: #212529;
+}
+
+.outline_red:hover {
+    outline-style: solid;
+    outline-offset: 4px;
+    outline-color: #dc3545;
+}
+
+.outline_blue:hover {
+    outline-style: solid;
+    outline-offset: 4px;
+    outline-color: #0d6efd;
+}
+
+
 /* HEADER */
 
 header {
@@ -114,6 +139,12 @@ footer {
 }
 
 /* EXPLORE PS4 */
+
+.flex_column_between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* PLAYSTATION PLUS */
 
