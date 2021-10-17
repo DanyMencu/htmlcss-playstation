@@ -28,27 +28,39 @@ body {
 }
 
 .outline_white:hover {
+    animation: outline_animation 0.1s linear forwards;
     outline-style: solid;
-    outline-offset: 4px;
     outline-color: white;
 }
 
 .outline_black:hover {
+    animation: outline_animation 0.1s linear forwards;
     outline-style: solid;
-    outline-offset: 4px;
     outline-color: #212529;
 }
 
 .outline_red:hover {
+    animation: outline_animation 0.1s linear forwards;
     outline-style: solid;
-    outline-offset: 4px;
     outline-color: #dc3545;
 }
 
 .outline_blue:hover {
+    animation: outline_animation 0.1s linear forwards;
     outline-style: solid;
-    outline-offset: 4px;
-    outline-color: #0d6efd;
+    outline-color: #0b5ed7;
+}
+
+@keyframes outline_animation {
+    from {
+        outline-offset: 0;
+
+    }
+
+    to {
+        outline-offset: 4px;
+
+    }
 }
 
 
